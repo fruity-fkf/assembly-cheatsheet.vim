@@ -2,7 +2,7 @@ local M = {}
 
 local has_telescope, telescope = pcall(require, "telescope")
 if not has_telescope then
-  vim.notify("Telescope is required for nasm_cheatsheet", vim.log.levels.ERROR)
+  vim.notify("Telescope is required for assembly_cheatsheet", vim.log.levels.ERROR)
   return
 end
 
@@ -13,9 +13,8 @@ local previewers = require("telescope.previewers")
 local entry_display = require("telescope.pickers.entry_display")
 
 local function plugin_dir()
-  -- Assumes plugin name is 'nasm_cheatsheet'
   local str = debug.getinfo(1, "S").source:sub(2)
-  return str:match("(.*/nasm_cheatsheet/)")
+  return str:match("(.*/assembly_cheatsheet/)")
 end
 
 local function load_instructions()
@@ -39,7 +38,7 @@ function M.cheatsheet()
   })
 
   pickers.new({}, {
-    prompt_title = "NASM Instruction Cheatsheet",
+    prompt_title = "Assembly Instruction Cheatsheet",
     finder = finders.new_table({
       results = instructions,
       entry_maker = function(entry)
