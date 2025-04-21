@@ -206,9 +206,7 @@
   {
     "instruction": "PXOR",
     "description": "Performs a bitwise XOR on packed integer values."
-  },
-  {
-    "instruction": "
-::contentReference[oaicite:3]{index=3}
+  }
+]
  
 
