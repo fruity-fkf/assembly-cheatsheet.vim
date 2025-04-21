@@ -1,0 +1,214 @@
+[
+  {
+    "instruction": "MOV",
+    "description": "Transfers data from source to destination."
+  },
+  {
+    "instruction": "CALL",
+    "description": "Calls a procedure by pushing the return address onto the stack."
+  },
+  {
+    "instruction": "LEA",
+    "description": "Loads the effective address of the source operand into the destination."
+  },
+  {
+    "instruction": "CMP",
+    "description": "Compares two operands by subtracting the source from the destination."
+  },
+  {
+    "instruction": "JZ",
+    "description": "Jumps to the specified label if the zero flag is set."
+  },
+  {
+    "instruction": "TEST",
+    "description": "Performs a bitwise AND on two operands and sets flags accordingly."
+  },
+  {
+    "instruction": "POP",
+    "description": "Pops the top value from the stack into the specified operand."
+  },
+  {
+    "instruction": "JMP",
+    "description": "Unconditionally jumps to the specified label."
+  },
+  {
+    "instruction": "PUSH",
+    "description": "Pushes the specified operand onto the stack."
+  },
+  {
+    "instruction": "ADD",
+    "description": "Adds two operands and stores the result in the destination."
+  },
+  {
+    "instruction": "JNZ",
+    "description": "Jumps to the specified label if the zero flag is not set."
+  },
+  {
+    "instruction": "XOR",
+    "description": "Performs a bitwise exclusive OR on two operands."
+  },
+  {
+    "instruction": "SUB",
+    "description": "Subtracts the source operand from the destination operand."
+  },
+  {
+    "instruction": "RET",
+    "description": "Returns from a procedure by popping the return address from the stack."
+  },
+  {
+    "instruction": "MOVZX",
+    "description": "Moves data with zero-extension to a larger size."
+  },
+  {
+    "instruction": "AND",
+    "description": "Performs a bitwise AND on two operands."
+  },
+  {
+    "instruction": "NOP",
+    "description": "Performs no operation; used for timing or alignment."
+  },
+  {
+    "instruction": "MOVUPS",
+    "description": "Moves unaligned packed single-precision floating-point values."
+  },
+  {
+    "instruction": "ENDBR64",
+    "description": "Marks valid indirect branch targets for control-flow enforcement."
+  },
+  {
+    "instruction": "MOVAPS",
+    "description": "Moves aligned packed single-precision floating-point values."
+  },
+  {
+    "instruction": "JA",
+    "description": "Jumps if above (unsigned greater)."
+  },
+  {
+    "instruction": "INT3",
+    "description": "Triggers a breakpoint interrupt for debugging."
+  },
+  {
+    "instruction": "SHR",
+    "description": "Performs a logical right shift on the destination operand."
+  },
+  {
+    "instruction": "MOVSXD",
+    "description": "Moves with sign-extension from a smaller to a larger operand size."
+  },
+  {
+    "instruction": "OR",
+    "description": "Performs a bitwise inclusive OR on two operands."
+  },
+  {
+    "instruction": "SHL",
+    "description": "Performs a logical left shift on the destination operand."
+  },
+  {
+    "instruction": "JC",
+    "description": "Jumps if the carry flag is set."
+  },
+  {
+    "instruction": "JBE",
+    "description": "Jumps if below or equal (unsigned)."
+  },
+  {
+    "instruction": "INC",
+    "description": "Increments the operand by one."
+  },
+  {
+    "instruction": "JNC",
+    "description": "Jumps if the carry flag is not set."
+  },
+  {
+    "instruction": "MOVDQA",
+    "description": "Moves aligned double quadword integer values."
+  },
+  {
+    "instruction": "XORPS",
+    "description": "Performs a bitwise XOR on packed single-precision floating-point values."
+  },
+  {
+    "instruction": "ROR",
+    "description": "Rotates the bits of the operand to the right."
+  },
+  {
+    "instruction": "SAR",
+    "description": "Performs an arithmetic right shift on the destination operand."
+  },
+  {
+    "instruction": "IMUL",
+    "description": "Performs signed integer multiplication."
+  },
+  {
+    "instruction": "JS",
+    "description": "Jumps if the sign flag is set."
+  },
+  {
+    "instruction": "JNS",
+    "description": "Jumps if the sign flag is not set."
+  },
+  {
+    "instruction": "JLE",
+    "description": "Jumps if less than or equal (signed)."
+  },
+  {
+    "instruction": "MOVDQU",
+    "description": "Moves unaligned double quadword integer values."
+  },
+  {
+    "instruction": "JG",
+    "description": "Jumps if greater (signed)."
+  },
+  {
+    "instruction": "MOVSD",
+    "description": "Moves scalar double-precision floating-point values."
+  },
+  {
+    "instruction": "MOVQ",
+    "description": "Moves quadword values."
+  },
+  {
+    "instruction": "CMOVZ",
+    "description": "Conditional move if zero flag is set."
+  },
+  {
+    "instruction": "MOVSS",
+    "description": "Moves scalar single-precision floating-point values."
+  },
+  {
+    "instruction": "SETZ",
+    "description": "Sets the destination byte to 1 if zero flag is set; otherwise, sets to 0."
+  },
+  {
+    "instruction": "DEC",
+    "description": "Decrements the operand by one."
+  },
+  {
+    "instruction": "UD1",
+    "description": "Undefined instruction; used to generate invalid opcode exception."
+  },
+  {
+    "instruction": "BT",
+    "description": "Tests a specific bit in the operand."
+  },
+  {
+    "instruction": "MOVSX",
+    "description": "Moves with sign-extension from a smaller to a larger operand size."
+  },
+  {
+    "instruction": "SETNZ",
+    "description": "Sets the destination byte to 1 if zero flag is not set; otherwise, sets to 0."
+  },
+  {
+    "instruction": "CMOVNZ",
+    "description": "Conditional move if zero flag is not set."
+  },
+  {
+    "instruction": "PXOR",
+    "description": "Performs a bitwise XOR on packed integer values."
+  },
+  {
+    "instruction": "
+::contentReference[oaicite:3]{index=3}
+ 
+
